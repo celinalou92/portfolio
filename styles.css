@@ -1,0 +1,220 @@
+
+    /* <!-- Heading = Open Sans, Body = Source Sans Pro --> */
+
+/* *{
+  border: 1px solid red;
+} */
+
+.item {
+    height: 100px;
+    width: 100px;
+    background: pink;
+  }
+  
+   h1, h2, h3, h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+  }
+  
+  
+   .navbar{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero {
+    color: #ffffff;
+    background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+  
+  .hero::after {
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background: rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+  
+  .hero video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    text-align: center;
+  }
+  
+  
+  
+  header {
+      margin-top: 100px;
+      border-bottom: 1px solid black;
+  }
+  
+  
+  .services-h2-text {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  
+  .service {
+    border: 1px solid rgba(207, 199, 198, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+      /* background-color: rgba(207, 199, 198, 0.5); */
+      display: flex;
+      flex-direction: column;
+  
+  
+  }
+  
+  .service h4{
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      border-bottom: 0.5px solid black;
+  }
+  
+  .service-main {
+      padding: 10px;
+      margin: 10px;
+  }
+  
+  .service img {
+    height: 50vh;
+    border-radius: 20px;
+    width: auto;
+    object-fit: cover;
+    object-position: top;
+  
+  }
+  #gd-img {
+  
+  }
+  
+  .projects-cta {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .contact-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border: .5px solid grey;
+  }
+  
+  .form-group{
+    margin: 3em;
+  }
+  
+  .form-group button {
+    margin-top: 2em;
+  }
+  
+  #form-text {
+    height: 20vh;
+  }
+  
+  /* Projects Page Specific Styling */
+  
+  .project-intro {
+    height: 100vh;
+  }
+  
+  .projects-main {
+    margin-top: 100px;
+  }
+  
+  .web-img {
+      height: 500px;
+      width: auto;
+      border: 10px solid pink;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .webdev-row {
+    margin: 20px 0;
+  }
+  
+  .webdev-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gd-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    /* grid-row-gap: 0;
+    grid-column-gap: 0; */
+  }
+  
+  /* .gd-text {
+    display: none;
+  } */
+  
+  
+  
+  /* Web Projects background Img */
+  #trulia {
+    background-image: url(./imgs/truliafull.png);
+  }
+  
+  #airbnb {
+    background-image: url(./imgs/airbnbfull.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #CCE {
+    background-image: url(./imgs/CCE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Graphic Design Projects Background Images */
+  .gd-image {
+    background-image: url(./imgs/toonlina.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+  }
+  

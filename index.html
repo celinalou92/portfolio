@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>CL-Portfolio</title>
+  </head>
+  <body>
+<!-- Heading = Open Sans, Body = Source Sans Pro -->
+<!-- Boostrap4 Nav bar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="brand">
+          <a class="navbar-brand" href="#">Celina Louissaint</a>
+      </div>
+      <div class="nav_content">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+<!-- Home Project Contact Me -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+<!-- end navbar -->
+<!-- Dummy Body text -->
+      <div class="hero container-fluid">
+          <video loop muted autoplay preload="auto">
+            <source src="video.mp4" type="video/mp4">
+          </video>
+          <div class="hero-text">
+            <h1>Hi I'm Celina</h1>
+            <h2>I am a website developer and marketing professional with a diverse skill set to meet many customer needs.</h2>
+          </div>
+      </div>
+
+
+
+
+      <div class="container-fluid service-main">
+        <h2 class="services-h2-text">Services</h2>
+          <!-- "eyebrow from steve schoger" -->
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="service">
+              <img src="./imgs/toonlina.png" alt="Dalhia Moon Logo">
+              <h4>Graphic Design</h4>
+              <p>Graphic design is the process of visual communication through typography, photography, iconography and illustration. I use the Adobe Creative Suite to make eye-catching designs for print and electronic media.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service">
+              <img src="./imgs/fewd.jpg" alt="screenshot of random code">
+              <h4>Front End Development</h4>
+              <p>Front End Development is building out the visual components of a website. Using HTML, CSS , and Javascript, I build mobile responsive, interactive websites.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="service">
+              <img src="./imgs/video.jpg" alt="person editing in adobe">
+              <h4>Video Editing and Affects</h4>
+              <p>In accumsan, ante ac sodales vestibulum, erat nulla hendrerit massa, in ultrices orci nunc eget lectus. Vestibulum semper arcu hendrerit, aliquam sem sit amet, porttitor nulla. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="projects-cta">
+              <h2>View some of my recent projects</h2>
+              <button type="button" name="button">View Projects</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+<!-- Start Contact form -->
+      <div class="contact-me container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Contact Celina</h2>
+            <p>If you would like to inquire about my freelance work including</p>
+            <ul>
+              <li>Website development</li>
+              <li>Graphic Design</li>
+              <li>Video Editing/Affects</li>
+              <li>Content Writing</li>
+            </ul>
+            <p>Please fill out the form below!</p>
+            <form>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="form-text">Enter your message below</label>
+                  <input type="text" class="form-control" id="form-text">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+<!-- End contact form -->
+    </div>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
+</html>
