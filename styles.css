@@ -11,7 +11,7 @@
     background: pink;
   }
   
-   h1, h2, h3, h4 {
+   h1, h2, h3, h4,  {
     font-family: 'Open Sans Condensed', sans-serif;
   }
   
@@ -21,7 +21,7 @@
   }
   
   
-   .navbar{
+   .navbar, .btn {
     font-family: 'Source Sans Pro', sans-serif;
   }
   
@@ -31,7 +31,7 @@
   }
   
   .hero {
-    color: #ffffff;
+    color: #000000;
     background-size: cover;
     justify-content: center;
     height: 100vh;
@@ -48,23 +48,12 @@
     left: 0;
     bottom: 0;
     content: "";
-    background: rgba(0,0,0,0.5);
-    z-index: 10;
   }
   
-  .hero video {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    object-fit: cover;
-  }
+
   
   .hero-text {
     position: relative;
-    z-index: 20;
     display: flex;
     flex-direction: column;
     padding: 20%;
@@ -79,14 +68,14 @@
   }
   
   
-  .services-h2-text {
+  .projects-h2-text {
     border-bottom: 1px solid black;
     padding: 10px;
     margin: 10px;
   }
   
   
-  .service {
+  .project {
     border: 1px solid rgba(207, 199, 198, 0.5);
     border-radius: 10px;
     padding: 30px;
@@ -98,19 +87,19 @@
   
   }
   
-  .service h4{
+  .project h4{
       padding: 10px;
       margin: 10px;
       text-align: center;
       border-bottom: 0.5px solid black;
   }
   
-  .service-main {
+  .projects-main {
       padding: 10px;
       margin: 10px;
   }
   
-  .service img {
+  .project img {
     height: 50vh;
     border-radius: 20px;
     width: auto;
@@ -122,7 +111,7 @@
   
   }
   
-  .projects-cta {
+  .ow_cta {
     background-color: black;
     color: white;
     display: flex;
@@ -185,36 +174,5 @@
     grid-template-rows: auto;
     /* grid-row-gap: 0;
     grid-column-gap: 0; */
-  }
-  
-  /* .gd-text {
-    display: none;
-  } */
-  
-  
-  
-  /* Web Projects background Img */
-  #trulia {
-    background-image: url(./imgs/truliafull.png);
-  }
-  
-  #airbnb {
-    background-image: url(./imgs/airbnbfull.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  #CCE {
-    background-image: url(./imgs/CCE.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  /* Graphic Design Projects Background Images */
-  .gd-image {
-    background-image: url(./imgs/toonlina.png);
-    background-size: cover;
-    height: 300px;
-    width: 300px;
   }
   
