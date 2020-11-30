@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Celina's Portfolio</title>
   </head>
   <body>
@@ -20,8 +21,8 @@
           <a class="navbar-brand" href="#">Celina</a>
       </div>
       <div class="nav_content">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span>
         </button>
 <!-- Home Project Contact Me -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,20 +40,47 @@
       </div>
     </nav>
 <!-- end navbar -->
-<!-- Dummy Body text -->
+<!-- start hero -->
       <div class="hero container-fluid">
-          <div class="hero-text" data-aos="fade-up">
-            <h1>Hi,</h1>
-            <h1>I'm Celina</h1>
-            <p class="text-lowlight">Front-End Web Developer.</p>
+          <div class="hero-text">
+            <h1 
+             data-aos="flip-up" 
+             data-aos-delay="200"
+              data-aos-duration="600"
+             data-aos-easing="ease-in-out"
+             id="hero-h1">Hi,</h1>
+             <h2 
+              data-aos="flip-up" 
+            data-aos-delay="500"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+             id="im-celina">I'm Celina</h2>
+             <div data-aos="fade-right" data-aos-easing="ease-in-out" class="hero-decoration"></div>
+            <p data-aos="flip-down" 
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              id="hero-p">Front-End Web Developer.</p>
           </div>
-          <div class="hero-img" data-aos="fade-up">
+          <div data-aos="zoom-out" 
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            class="hero-img">
             <img src="./imgs/celina-cut-out-0.75x.png" alt="">  
           </div>
       </div>
 
-
-
+<!-- start about me -->
+      <div class="container-fluid about">
+        <div class="row">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>I am a Long Beach based developer and I build fully responsive websites for small businesses, projects and individuals. I have a wide skill set that includes graphic design, video editing, and coding (front end). I can build your site, design your logo and create graphics for your business from beginning to end.</p>
+          </div>
+        </div>
+      </div>
+<!-- start projects -->
 
       <div class="container-fluid projects-main">
         <h2 class="projects-h2-text">Web Dev Projects</h2>
@@ -134,7 +162,6 @@
       </div>
 <!-- End contact form -->
     </div>
-
 
     <script type="text/javascript" src="script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
