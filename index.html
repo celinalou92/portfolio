@@ -31,10 +31,10 @@
               <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
             </li>
         </div>
       </div>
@@ -42,6 +42,7 @@
 <!-- end navbar -->
 <!-- start hero -->
       <div class="hero container-fluid">
+        <div class="hero-contents">
           <div class="hero-text">
             <h1 
              data-aos="flip-up" 
@@ -61,7 +62,17 @@
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               id="hero-p">Front-End Web Developer.</p>
-          </div>
+              <div class="center-con" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-delay="1000"
+              data-aos-duration="1000">
+                <p>About Me</p>
+                <div class="round">
+                  <span class="arrow"></span>
+                  <span class="arrow"></span>
+                  <span class="arrow"></span>
+                  <span class="arrow"></span>
+                </div>
+              </div>
+            </div>
           <div data-aos="zoom-out" 
             data-aos-delay="1000"
             data-aos-duration="1000"
@@ -69,7 +80,10 @@
             class="hero-img">
             <img src="./imgs/celina-cut-out-0.75x.png" alt="">  
           </div>
+        </div>
+
       </div>
+
 
 <!-- start about me -->
       <div class="container-fluid about">
@@ -80,8 +94,79 @@
           </div>
         </div>
       </div>
+      <div class="container skill-container">
+          <h2>My Skill Set</h2>
+        <div class="row icon-row">
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>HTML</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/htmlShield.png" alt="" class="skill-icon">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>CSS</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/cssShield.png" alt="" class="skill-icon">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/javascriptShield.png" alt="" class="skill-icon">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>Bootstrap</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/bootstrap.png" alt="" class="skill-icon">
+            </div>
+          </div>
+        </div>
+        <div class="row icon-row">
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>Photoshop</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/Photoshop.png" alt="" class="skill-icon">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>Illustrator</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/Illustrator.png" alt="" class="skill-icon">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>Premeire</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/Premeire Pro.png" alt="" class="skill-icon">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <div class="skill-header">
+              <h3>InDesign</h3>
+            </div>
+            <div class="skill">
+              <img src="./imgs/InDesign.png" alt="" class="skill-icon">
+            </div>
+          </div>
+        </div>
+      </div>
 <!-- start projects -->
-
+<a name="projects"></a>
       <div class="container-fluid projects-main">
         <h2 class="projects-h2-text">Web Dev Projects</h2>
           <!-- "eyebrow from steve schoger" -->
@@ -108,14 +193,14 @@
             <div class="project">
               <img src="./imgs/CCE.png" alt="person editing in adobe">
               <h4>CCE Landing Page</h4>
-              <p>HTML, CSS, Mobile Responsive Design, Bootstrap, JavaScript, Google Sheet Script.</p>
+              <p>HTML, CSS, Mobile Responsive Design, Bootstrap, JavaScript</p>
               <a href="https://codesandbox.io/s/fewd-final-v2-ptcmw"
               class="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">View On Code Sandbox</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="container-fluid ">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
             <div class="ow_cta">
@@ -133,7 +218,9 @@
 
 
 <!-- Start Contact form -->
+    <a name="contact"></a>
       <div class="contact-me container">
+  
         <div class="row">
           <div class="col-lg-12">
             <h2>Contact Celina</h2>
@@ -144,15 +231,15 @@
               <li>Video Editing/Affects</li>
             </ul>
             <p>Please fill out the form below!</p>
-            <form>
+            <form action="https://formspree.io/f/xgepnkov" method="post" >
                 <div class="form-group">
                   <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <input name="_replyto" type="email" class="form-control" id="email" aria-describedby="emailHelp">
                   <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                   <label for="form-text">Enter your message below</label>
-                  <input type="text" class="form-control" id="form-text">
+                  <input name="message" type="text" class="form-control" id="form-text">
                   <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
 
