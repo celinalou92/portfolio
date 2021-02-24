@@ -36,6 +36,10 @@
     background-color: #1C1C1D;
   }
 
+  .navbar-toggler img {
+    height: 40px;
+  }
+
     
   .fas .fa-bars{
     border-color: rgb(214,162,58);
